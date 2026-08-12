@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>letter to V.M.</title>
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="./assets/favicon.png"
+        sizes="16x16"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+
+<body>
+
+    <!-- =========================================
+         ORIGINAL CONTAINER
+         ========================================= -->
+
+    <div class="container">
+
+        <header>
+
+            <h1>important: you've got mail!</h1>
+
+            <div class="shrink-close-icons">
+
+                <img
+                    src="./assets/shrink-icon.png"
+                    alt="Shrink Icon"
+                    class="shrink-icon"
+                >
+
+                <img
+                    src="./assets/close-icon.png"
+                    alt="Close Icon"
+                    class="shrink-icon"
+                >
+
+            </div>
+
+        </header>
+
+
+        <!-- =====================================
+             IMAGE SEQUENCE
+             ===================================== -->
+
+        <div class="inner-container">
+
+            <div class="image-content"></div>
+
+            <button id="main-button">
+                open
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================
+         LETTER
+         This is OUTSIDE the original container
+         ========================================= -->
+
+    <div class="letter-container" id="letterContainer">
+
+        <!-- Unopened envelope -->
+
+        <img
+            src="./assets/unopened.png"
+            class="unopened-envelope"
+            alt="Unopened envelope"
+        >
+
+
+        <!-- Envelope rims -->
+
+        <img
+            src="./assets/rims.png"
+            class="rims"
+            alt="Envelope rims"
+        >
+
+
+        <!-- Envelope backing -->
+
+        <img
+            src="./assets/backing.png"
+            class="backing"
+            alt="Envelope backing"
+        >
+
+
+        <!-- White paper -->
+
+        <div class="paper">
+
+            <div class="letter-text">
+                Write your message here.
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================
+         JAVASCRIPT
+         ========================================= -->
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
